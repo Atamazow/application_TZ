@@ -1,10 +1,19 @@
+import "./style.css";
+import { Routes, Route } from "react-router-dom";
 
-import PostsComponent from "./components/PostsComponent";
+import PostList from "./components/PostList";
+import React from "react";
+import Post from "./components/Post";
 
 function App() {
   return (
     <div className="App">
-      <PostsComponent/>
+      <h1>Посты</h1>
+
+      <Routes>
+        <Route path="/" element={<PostList />} />
+        <Route path="/:id" element={<Post />} />
+      </Routes>
     </div>
   );
 }
