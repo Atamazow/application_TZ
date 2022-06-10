@@ -1,47 +1,47 @@
 .wrapper {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
 }
 
 .wrapper li {
-    margin-right: 10px;
-    padding: 2px 7px;
-    border-radius: 3px;
-    cursor: pointer;
+  margin-right: 10px;
+  padding: 2px 7px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 .wrapper li a {
-    font-size: 14px;
-    line-height: 21px;
-    color: blue;
+  font-size: 14px;
+  line-height: 21px;
+  color: blue;
 }
 
 .active {
-    background-color: gainsboro;
+  background-color: gainsboro;
 }
 
 .active a {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .prevArrow {
-    font-size: 22px !important;
-    font-weight: 700;
+  font-size: 22px !important;
+  font-weight: 700;
 }
 
 .prevArrow:hover {
-    color: blue;
+  color: blue;
 }
 
 .nextArrow {
-    font-size: 22px !important;
-    font-weight: 700;
+  font-size: 22px !important;
+  font-weight: 700;
 }
 
 .nextArrow:hover {
-    color: blue;
+  color: blue;
 }

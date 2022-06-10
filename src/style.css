@@ -22,8 +22,12 @@ ul {
 
 ul a {
   text-decoration: none;
+  color: black;
 }
 
 .post-block {
-    width: 500px;
+  width: 500px;
+}
+.search-fields {
+  justify-content: center;
 }
